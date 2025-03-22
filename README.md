@@ -100,3 +100,28 @@ Selector digunakan untuk memilih elemen yang akan diberikan gaya.
     padding: 10px;
   }
   ```
+
+## 5. Layout dengan CSS
+### a. Display
+- `block`: Elemen menempati satu baris penuh.
+- `inline`: Elemen hanya selebar kontennya.
+- `flex`: Mengatur elemen secara fleksibel.
+  ```css
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  ```
+
+### b. Position
+- `static` (default)
+- `relative`
+- `absolute`
+- `fixed`
+  ```css
+  .box {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+  }
+  ```
