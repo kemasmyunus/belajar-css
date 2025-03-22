@@ -152,3 +152,24 @@ Digunakan untuk membuat tampilan yang responsif di berbagai ukuran layar.
     grid-template-columns: 1fr 1fr;
   }
   ```
+
+## 7. Animasi dan Transisi
+- `transition`: Efek perubahan yang halus.
+  ```css
+  button {
+    transition: background-color 0.3s;
+  }
+  ```
+- `animation`: Membuat animasi kustom.
+  ```css
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  div {
+    animation: example 2s infinite;
+  }
+  ```
+
+## 8. Kesimpulan
+CSS memungkinkan kita untuk mengatur tampilan halaman web dengan fleksibel. Dengan memahami dasar-dasar CSS seperti selector, properti, layout, dan animasi, kita dapat menciptakan desain web yang menarik dan responsif.
