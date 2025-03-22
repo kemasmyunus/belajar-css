@@ -125,3 +125,30 @@ Selector digunakan untuk memilih elemen yang akan diberikan gaya.
     left: 100px;
   }
   ```
+
+## 6. Responsif dengan CSS
+### a. Media Query
+Digunakan untuk membuat tampilan yang responsif di berbagai ukuran layar.
+```css
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+```
+
+### b. Flexbox dan Grid
+- **Flexbox** digunakan untuk tata letak yang fleksibel.
+  ```css
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  ```
+- **CSS Grid** digunakan untuk tata letak berbasis grid.
+  ```css
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  ```
