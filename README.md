@@ -244,3 +244,15 @@ Grid Layout adalah sistem tata letak yang lebih kompleks dibandingkan flexbox.
   padding: 20px;
 }
 ```
+## 11. Dark Mode dengan CSS
+Kita bisa menerapkan mode gelap menggunakan media query `prefers-color-scheme`.
+
+```css
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: white;
+  }
+}
+```
+
