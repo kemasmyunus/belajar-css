@@ -229,3 +229,18 @@ div {
   padding: var(--padding-size);
 }
 ```
+
+## 10. Grid Layout
+Grid Layout adalah sistem tata letak yang lebih kompleks dibandingkan flexbox.
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.item {
+  background-color: lightblue;
+  padding: 20px;
+}
+```
