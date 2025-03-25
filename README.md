@@ -215,5 +215,17 @@ h1::before {
 }
 ```
 
+## 9. Variabel CSS
+Variabel CSS memungkinkan kita menyimpan nilai yang dapat digunakan kembali.
 
+```css
+:root {
+  --main-color: #3498db;
+  --padding-size: 10px;
+}
 
+div {
+  background-color: var(--main-color);
+  padding: var(--padding-size);
+}
+```
