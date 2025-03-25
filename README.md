@@ -255,4 +255,16 @@ Kita bisa menerapkan mode gelap menggunakan media query `prefers-color-scheme`.
   }
 }
 ```
+## 12. Custom Scrollbar
+Kita bisa menyesuaikan tampilan scrollbar dengan CSS.
 
+```css
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 5px;
+}
+```
