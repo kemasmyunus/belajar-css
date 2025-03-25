@@ -171,5 +171,49 @@ Digunakan untuk membuat tampilan yang responsif di berbagai ukuran layar.
   }
   ```
 
-## 8. Kesimpulan
-CSS memungkinkan kita untuk mengatur tampilan halaman web dengan fleksibel. Dengan memahami dasar-dasar CSS seperti selector, properti, layout, dan animasi, kita dapat menciptakan desain web yang menarik dan responsif.
+## 8. Pseudo-Class dan Pseudo-Element
+
+### a. Pseudo-Class
+Pseudo-class digunakan untuk memberikan gaya pada elemen dalam kondisi tertentu.
+- `:hover` – Gaya saat kursor diarahkan ke elemen.
+- `:focus` – Gaya saat elemen mendapatkan fokus.
+- `:nth-child(n)` – Memilih elemen berdasarkan urutannya.
+
+```css
+button:hover {
+  background-color: blue;
+}
+
+input:focus {
+  border: 2px solid green;
+}
+
+li:nth-child(odd) {
+  background-color: lightgray;
+}
+```
+
+### b. Pseudo-Element
+Pseudo-element digunakan untuk memberikan gaya pada bagian tertentu dari elemen.
+- `::first-letter` – Memberikan gaya pada huruf pertama teks.
+- `::first-line` – Memberikan gaya pada baris pertama teks.
+- `::before` dan `::after` – Menambahkan elemen sebelum atau sesudah konten elemen.
+
+```css
+p::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p::first-line {
+  color: blue;
+}
+
+h1::before {
+  content: '>> ';
+  color: red;
+}
+```
+
+
+
